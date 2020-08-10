@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>Hakeem</td>
+            <td>Trotman</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+        </tr>
+    </table>
+    <div class="contract">
+        <form action="" method="get">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name">
+        </form>
+    </div>
+
+</body>
+</html>
