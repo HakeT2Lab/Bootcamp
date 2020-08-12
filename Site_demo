@@ -6,11 +6,11 @@
 <body>
     <table>
         <tr>
-            <th>Firstname</th>
+            <th>First name</th>
             <th>Lastname</th>
         </tr>
         <tr>
-            <td>Hakeem</td>
+            <td>Hakeemk</td>
             <td>Trotman</td>
         </tr>
         <tr>
@@ -18,6 +18,19 @@
             <td>Jackson</td>
         </tr>
     </table>
+    <!-- Test -->
+    <div id="rock">
+    <p>This beats scissors.</p>
+    </div>
+    <div id="paper">
+        <p>This beats rock.</p>
+    </div>
+    <div id="scissors">
+        <p>This beats paper.</p>
+    </div>
+
+    <!-- Test -->
+
     <div class="contract">
         <form action="" method="get">
             <label for="name">Enter your name: </label>
