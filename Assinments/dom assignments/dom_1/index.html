@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    #container{
+      border: 2px black solid;
+    }
+    .footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #bc4c4c;
+      border: 2px black solid;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <section id="container">
+        <ul>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ul>
+        <ol>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ol>
+    </section>
+    <div class="footer">
+      <h1>This is the footer</h1>
+    </div>
+    <script>
+        //document.querySelector(".first").style.background = "lightblue";
+
+
+
+        //1) Select the section with an id of container without using querySelector.
+        let containerID = document.getElementById('container');
+
+        //2) Select the section with an id of container using querySelector.
+        let queryContainer= document.querySelector('#container');
+
+        //3) Select all of the list items with a class of "second".
+        let secondItem = document.getElementsByClassName('second');
+
+        //4) Select a list item with a class of third, but only the list item inside of the ol tag.
+        let olThirdClass = document.querySelector("ol .third");
+
+        //5) Give the section with an id of container the text "Hello!".
+        //let hello =containerID.innerHTML= "Hello";
+
+        //6) Add the class main to the div with a class of footer.
+        document.querySelector("div.footer").classList.add("main");
+
+        //7) Remove the class main on the div with a class of footer.
+        document.querySelector("div.footer").classList.remove("main");
+
+        //8) Create a new li element.
+        const newElement= document.createElement("li");
+
+        //9) Give the li the text "four".
+        newElement.innerHTML= "four";
+
+        //10) Append the li to the ul element.
+        document.querySelector("ul").appendChild(newElement);
+        //11) Loop over all of the lis inside the ol tag and give them a background color of "green".
+
+        const listItems = document.querySelectorAll("ol il");
+        for(let i = 0; i< listItems.length; i++){
+          console.log(listItems);
+          listItems[i].style.color= "green"; //not working for me
+
+        }
+
+        //12) Remove the div with a class of footer.
+        const footer= document.querySelector(".footer");
+        footer.remove();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//
+//     </script>
+// </body>
+// </html>
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+// var createMAIN= document.createElement("MAIN");
+// var mainTXT= document.createTextNode("<p>four</p>");
+// footerID.appendChild(createMAIN);
+// createMAIN.appendChild(mainTXT);
+
+//containerID.querySelector(".first").innerHTML = "Hello World!";
+//document.querySelector('#q').onfocus
+
+//Giving container a name
+//var header = document.getElementById("container");
+// var text = document.createTextNode("Hello");
+// containerID.appendChild(text);
+
+//add main to div class footer
+
+
+
+// var newLI= document.createElement("LI");
+// var newLITXT= document.createTextNode("four");
+// newLI.appendChild(newLITXT);
+// containerID.appendChild(newLI);
+
+
+
+
+
+
+
+
+
+
+
+// var createMAIN= document.createElement("MAIN");
+// var createMAINPAR= createMAIN.createElement("P");
+// var mainTXT= document.createTextNode("This the temp name");
+//
+// document.appendChild(createMAIN);
+// document.appendChild(createMAINPAR);
+// createMAINPAR.appendChild(mainTXT);
+
+
+// var createMAIN= document.createElement("MAIN");
+// var mainTXT= document.createTextNode("<p>four</p>");
+// footerID.appendChild(createMAIN);
+// createMAIN.appendChild(mainTXT);
+
+//create new li element
+//         var newLI= document.createElement("LI");
+//         var newLITXT= document.createTextNode("four");
+//         newLI.appendChild(newLITXT);
+//         containerID.appendChild(newLI);
+//
+//         //add class main to div with a class of footer
+//           var footerID= document.getElementById("footer");
+//
+//
+//         //add things from ol to il
+//
+//
+//         var all_ILS = document.querySelectorAll(".li");
+//
+//         for(var i = 0; i< all_ILS; i++){
+//           var moveItem = containerID.getElementById(".ol").lastChild;
+//           var ioList = containerID.getElementById(".ul");
+//           ioList.insertDefore(moveItem, moveItem.childNodes[i]);
+//         }
+//
+//         // var newEleIl =newIl.createElement("il");
+//         // conHeader.setAttribute("id", "newIlTxt");
+//         // newIlTxt.createTextNode("Hello");
+//         // header.appendChild(newIlTxt);
+//
+//
+//         //document.querySelector(".container").innerHTML = "Hello World!";
+//
+//         //Changes both html's of Second
+//         secondEles = document.querySelectorAll(".second");
+//         for(var i = 0; i <secondEles.length; i++){
+//           //secondEles[i].style.backgroundColor = "red";
+//           secondEles[i].innerHTML = "Changed";
+//         }
+//
+//         //Changes the second element third
+//         var testID;
+//         thirdEles = document.querySelectorAll(".third");
+//         for(var i = 1; i <thirdEles.length; i++){
+//           //secondEles[i].style.backgroundColor = "red";
+//          testID =thirdEles[i].innerHTML = "Second element changed";
+//         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+// x.write = "<h1> Main title </h1>";
+// var conHeader =x.createElement("H1");
+// conHeader.setAttribute("id", "containerHeader");
+// document.body.appendChild(conHeader);
+// var containerHeaderText = document.createTextNode("Section Heading");
+// heading.appendChild(containerHeaderText);
+// document.getElementById("containerHeader").appendChild(conHeader);
+//document.body.appendChild(x); --> -->

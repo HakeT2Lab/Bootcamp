@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <section id="container">
+
+      <button onclick="buttonOneClick()">Button A</button>
+
+      <button onclick="buttonTwoClick()">Button B</button>
+
+      <p id = "argument"> These two buttons are arguing.</p>
+
+
+    </section>
+    <div class="footer">
+    </div>
+</body>
+<script type="text/javascript">
+  function buttonOneClick(){
+    document.getElementById("argument").innerHTML = "I'm right!";
+  }
+
+  function buttonTwoClick(){
+    document.getElementById("argument").innerHTML = "No! I'm right!";
+  }
+</script>
+
+</html>

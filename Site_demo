@@ -1,42 +1,125 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html style= "background-color:#888888;" lang="en">
 <head>
-    <title>Document</title>
+
+    <p style= "background-color:#888888;">
+      <a href="url">ABOUT</a> / <a href="url">GALLERY</a>  / <a href="url">TIMELINE</a> / <a href="url">LINKS</a>
+    </p>
+
+  <br>
+
+  <title>Star Trek.</title>
+    <style>
+
+      p.solid {border-style: solid;}
+
+      .detail{
+        color:#b8874b;
+      }
+      .blackText{
+        color:black;
+      }
+
+      mark{
+        background-color:#b8874b;
+      }
+
+
+    </style>
 </head>
-<body>
-    <table>
-        <tr>
-            <th>First name</th>
-            <th>Lastname</th>
-        </tr>
-        <tr>
-            <td>Hakeemk</td>
-            <td>Trotman</td>
-        </tr>
-        <tr>
-            <td>Eve</td>
-            <td>Jackson</td>
-        </tr>
-    </table>
-    <!-- Test -->
-    <div id="rock">
-    <p>This beats scissors.</p>
-    </div>
-    <div id="paper">
-        <p>This beats rock.</p>
-    </div>
-    <div id="scissors">
-        <p>This beats paper.</p>
-    </div>
+<body style= "background-color:#4b4f8c;">
 
-    <!-- Test -->
+<h2 style="text-align:center;">Leonard Nimoy</h2>
+<p style="text-align:center;">as Spock</p>
+<p style="text-align:center;">
+  <img src="download.jpg" alt="Spock's Iconic Pose." />
+</p>
 
-    <div class="contract">
-        <form action="" method="get">
-            <label for="name">Enter your name: </label>
-            <input type="text" name="name" id="name">
-        </form>
-    </div>
+
+<h2><p style="text-align:center;">1931 - 2015 </p></h2>
+
+<p style="text-align:center;">
+  <span class="detail">Leonord Nimoy</span>
+  was an actor, director, singer and photographer. His most well known role was that of
+  <span class="detail">Spock</span>
+in the Star Trek franchise. The character is a half-vulcan half-human star fleet officer.
+ Together with
+ <span class="detail">James Kirk</span>
+  and the crew of the
+  <span class="detail">USS Enterprise</span>
+  , they explore the far reachs of space. Leonard portrayed Spock from
+    1964, in
+    <span class="detail">Star Trek: The Original Series</span>
+     to 2013 in the recent reboot film,
+     <span class="detail">Star Trek Into Darkness</span>
+     .
+</p>
+
 
 </body>
+
+<body2 style= "background-color:#d89a37;" >
+  <h2>Gallery</h2>
+
+
+
+  <img src= "UnderCloseup.jpg"
+  alt= "Spock"
+  align= "right|center">
+
+  <img src= "Two People.jpg"
+  alt= "Spock"
+  align= "right|center">
+
+  <img src= "sat.jpg"
+  alt= "Spock"
+  align= right|center">
+
+
+</body2>
+
+<body3 >
+  <panel  class="solid" background-color:#00000;>
+
+      <h2 >Timeline</h2>
+
+    <ul >
+      <li>
+        <mark>1931</mark>
+         Born in Boston, MA.
+      </li>
+
+      <li>
+        <mark>1951</mark>
+          First acting role in Queen for a Day
+      </li>
+
+      <li>
+        <mark>1964</mark>
+         Filmed the pilot for Star Trek.
+      </li>
+
+      <li>
+        <mark>1966</mark>
+         Starred in the Star Trek: The
+      </li>
+
+      <li>
+        <mark>1979</mark>
+         Starred in the first of 8 Star Trek films.
+      </li>
+
+      <li>
+        <mark>2015</mark>
+         Passed away in Los Angeles, CA
+      </li>
+    </ul>
+  </panel>
+
+
+
+
+</body3>
 </html>

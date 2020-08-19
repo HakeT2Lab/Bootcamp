@@ -1,0 +1,16 @@
+let passwordInput= prompt("Please enter a password");
+let correctPassword = 123345678;
+
+function password(passwordInput)
+{
+  if(passwordInput === correctPassword){
+    //alert("Password was incorrect please try again.");
+    console.log("password incorrect");
+  }else{
+    //return ("password was correct");
+    console.log("password incorrect");
+  }
+
+}
+console.log(passwordInput);
+document.getElementById("password").innerHTML = passwordInput;
